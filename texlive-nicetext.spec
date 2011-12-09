@@ -1,4 +1,4 @@
-# revision 24388
+# revision 24791
 # category Package
 # catalog-ctan /macros/latex/contrib/nicetext
 # catalog-date 2011-10-23 21:21:29 +0200
@@ -6,7 +6,7 @@
 # catalog-version 0.52
 Name:		texlive-nicetext
 Version:	0.52
-Release:	1
+Release:	2
 Summary:	Minimal markup for simple text (Wikipedia style) and documentation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nicetext
@@ -18,9 +18,6 @@ BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
-Conflicts:	texlive-source <= 20110705-3
 
 %description
 Nicetext bundle offers "minimal" markup syntax for various
@@ -38,19 +35,19 @@ bundle: - makedoc, which provides the means to typeset package
 files.
 
 %pre
-    %_texmf_mktexlsr_pre
+    %{_sbindir}/texlive.post
 
 %post
-    %_texmf_mktexlsr_post
+    %{_sbindir}/texlive.post
 
 %preun
     if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_pre
+	%{_sbindir}/texlive.post
     fi
 
 %postun
     if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_post
+	%{_sbindir}/texlive.post
     fi
 
 #-----------------------------------------------------------------------
@@ -87,6 +84,7 @@ files.
 %doc %{_texmfdistdir}/doc/latex/nicetext/RELEAS04.txt
 %doc %{_texmfdistdir}/doc/latex/nicetext/RELEASE042.txt
 %doc %{_texmfdistdir}/doc/latex/nicetext/RELEASE043.txt
+%doc %{_texmfdistdir}/doc/latex/nicetext/RELEASE044.txt
 %doc %{_texmfdistdir}/doc/latex/nicetext/SrcFILEs.txt
 %doc %{_texmfdistdir}/doc/latex/nicetext/demo/arseneau.pdf
 %doc %{_texmfdistdir}/doc/latex/nicetext/demo/iso.txt
