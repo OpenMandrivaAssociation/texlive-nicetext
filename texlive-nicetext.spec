@@ -34,16 +34,8 @@ external file; the package is used by another member of the
 bundle: - makedoc, which provides the means to typeset package
 files.
 
-%pre
-    %{_sbindir}/texlive.post
-
 %post
     %{_sbindir}/texlive.post
-
-%preun
-    if [ $1 -eq 0 ]; then
-	%{_sbindir}/texlive.post
-    fi
 
 %postun
     if [ $1 -eq 0 ]; then
@@ -104,7 +96,6 @@ files.
 %doc %{_texmfdistdir}/source/latex/nicetext/niceverb.tex
 %doc %{_texmfdistdir}/source/latex/nicetext/srcfiles.tex
 %doc %{_texmfdistdir}/source/latex/nicetext/wikicheat.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -115,5 +106,3 @@ files.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
