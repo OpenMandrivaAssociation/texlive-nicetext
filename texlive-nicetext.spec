@@ -6,7 +6,7 @@
 # catalog-version 0.52
 Name:		texlive-nicetext
 Version:	0.52
-Release:	2
+Release:	3
 Summary:	Minimal markup for simple text (Wikipedia style) and documentation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nicetext
