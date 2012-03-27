@@ -1,12 +1,12 @@
-# revision 24791
+# revision 25699
 # category Package
 # catalog-ctan /macros/latex/contrib/nicetext
-# catalog-date 2011-10-23 21:21:29 +0200
+# catalog-date 2012-03-19 10:39:29 +0100
 # catalog-license lppl
-# catalog-version 0.52
+# catalog-version undef
 Name:		texlive-nicetext
-Version:	0.52
-Release:	3
+Version:	20120319
+Release:	1
 Summary:	Minimal markup for simple text (Wikipedia style) and documentation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nicetext
@@ -20,19 +20,19 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-Nicetext bundle offers "minimal" markup syntax for various
-simple kinds of text. The code you type should involve little
-more than is printed, and you still get LaTeX quality. The
-bundle provides four packages: - wiki addresses general texts,
-marked up in the simple style used on Wikipedia; - niceverb is
-yet another means of documenting LaTeX packages: it offers
-syntax-aware typesetting of meta-variables (macro arguments)
-and for referring to commands (and their syntax) in footnotes,
-section titles etc.; - fifinddo aims to parse plain text or
-(La)TeX files using TeX, and to write the results to an
-external file; the package is used by another member of the
-bundle: - makedoc, which provides the means to typeset package
-files.
+The bundle offers "minimal" markup syntax for various simple
+kinds of text. The user will typically involve little more than
+is printed, and will still get LaTeX quality. The bundle
+provides four packages: - wiki addresses general texts, marked
+up in the simple style used on Wikipedia; - niceverb is yet
+another means of documenting LaTeX packages: it offers syntax-
+aware typesetting of meta-variables (macro arguments) and for
+referring to commands (and their syntax) in footnotes, section
+titles etc.; - fifinddo aims to parse plain text or (La)TeX
+files using TeX, and to write the results to an external file;
+the package is used by another member of the bundle: - makedoc,
+which provides the means to produce typeset documentation
+direct from package files.
 
 %post
     %{_sbindir}/texlive.post
@@ -68,12 +68,12 @@ files.
 %{_texmfdistdir}/tex/latex/nicetext/wiki.sty
 %doc %{_texmfdistdir}/doc/latex/nicetext/ANNOUNCE.txt
 %doc %{_texmfdistdir}/doc/latex/nicetext/CHANGE.LOG
-%doc %{_texmfdistdir}/doc/latex/nicetext/CHANGE.txt
 %doc %{_texmfdistdir}/doc/latex/nicetext/FILEs.txt
 %doc %{_texmfdistdir}/doc/latex/nicetext/README
 %doc %{_texmfdistdir}/doc/latex/nicetext/README.pdf
 %doc %{_texmfdistdir}/doc/latex/nicetext/RELEAS03.txt
 %doc %{_texmfdistdir}/doc/latex/nicetext/RELEAS04.txt
+%doc %{_texmfdistdir}/doc/latex/nicetext/RELEAS05.txt
 %doc %{_texmfdistdir}/doc/latex/nicetext/RELEASE042.txt
 %doc %{_texmfdistdir}/doc/latex/nicetext/RELEASE043.txt
 %doc %{_texmfdistdir}/doc/latex/nicetext/RELEASE044.txt
@@ -87,6 +87,7 @@ files.
 %doc %{_texmfdistdir}/doc/latex/nicetext/makedoc.pdf
 %doc %{_texmfdistdir}/doc/latex/nicetext/mdoccheat.pdf
 %doc %{_texmfdistdir}/doc/latex/nicetext/niceverb.pdf
+%doc %{_texmfdistdir}/doc/latex/nicetext/readprov.log
 %doc %{_texmfdistdir}/doc/latex/nicetext/wikicheat.pdf
 #- source
 %doc %{_texmfdistdir}/source/latex/nicetext/README.tex
