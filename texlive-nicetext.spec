@@ -1,11 +1,11 @@
-# revision 25699
+# revision 25843
 # category Package
 # catalog-ctan /macros/latex/contrib/nicetext
-# catalog-date 2012-03-19 10:39:29 +0100
+# catalog-date 2012-04-03 20:19:38 +0200
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-nicetext
-Version:	20120319
+Version:	20120403
 Release:	1
 Summary:	Minimal markup for simple text (Wikipedia style) and documentation
 Group:		Publishing
