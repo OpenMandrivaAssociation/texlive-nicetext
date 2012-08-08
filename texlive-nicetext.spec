@@ -1,11 +1,11 @@
-# revision 25843
+# revision 26724
 # category Package
 # catalog-ctan /macros/latex/contrib/nicetext
-# catalog-date 2012-04-03 20:19:38 +0200
+# catalog-date 2012-05-29 14:29:59 +0200
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-nicetext
-Version:	20120403
+Version:	20120529
 Release:	1
 Summary:	Minimal markup for simple text (Wikipedia style) and documentation
 Group:		Publishing
@@ -48,6 +48,7 @@ direct from package files.
 %{_texmfdistdir}/tex/latex/nicetext/makedoc.cfg
 %{_texmfdistdir}/tex/latex/nicetext/makedoc.sty
 %{_texmfdistdir}/tex/latex/nicetext/mdoccorr.cfg
+%{_texmfdistdir}/tex/latex/nicetext/nicetext.RLS
 %{_texmfdistdir}/tex/latex/nicetext/niceverb.sty
 %{_texmfdistdir}/tex/latex/nicetext/run/README-run.txt
 %{_texmfdistdir}/tex/latex/nicetext/run/arseneau.tex
