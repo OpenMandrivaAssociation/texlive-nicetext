@@ -1,11 +1,11 @@
-# revision 26724
+# revision 28021
 # category Package
 # catalog-ctan /macros/latex/contrib/nicetext
-# catalog-date 2012-05-29 14:29:59 +0200
+# catalog-date 2012-10-10 17:55:42 +0200
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-nicetext
-Version:	20120529
+Version:	20121010
 Release:	1
 Summary:	Minimal markup for simple text (Wikipedia style) and documentation
 Group:		Publishing
@@ -66,6 +66,7 @@ direct from package files.
 %{_texmfdistdir}/tex/latex/nicetext/run/sample.txt
 %{_texmfdistdir}/tex/latex/nicetext/run/substr.tex
 %{_texmfdistdir}/tex/latex/nicetext/run/u8atablg.fdf
+%{_texmfdistdir}/tex/latex/nicetext/stacklet.sty
 %{_texmfdistdir}/tex/latex/nicetext/wiki.sty
 %doc %{_texmfdistdir}/doc/latex/nicetext/ANNOUNCE.txt
 %doc %{_texmfdistdir}/doc/latex/nicetext/CHANGE.LOG
@@ -78,6 +79,7 @@ direct from package files.
 %doc %{_texmfdistdir}/doc/latex/nicetext/RELEASE042.txt
 %doc %{_texmfdistdir}/doc/latex/nicetext/RELEASE043.txt
 %doc %{_texmfdistdir}/doc/latex/nicetext/RELEASE044.txt
+%doc %{_texmfdistdir}/doc/latex/nicetext/RELEASE051.txt
 %doc %{_texmfdistdir}/doc/latex/nicetext/SrcFILEs.txt
 %doc %{_texmfdistdir}/doc/latex/nicetext/demo/arseneau.pdf
 %doc %{_texmfdistdir}/doc/latex/nicetext/demo/iso.txt
