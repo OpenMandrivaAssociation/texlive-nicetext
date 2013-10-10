@@ -1,11 +1,12 @@
-# revision 28021
+# revision 28423
 # category Package
 # catalog-ctan /macros/latex/contrib/nicetext
-# catalog-date 2012-10-10 17:55:42 +0200
+# catalog-date 2012-12-02 13:05:20 +0100
 # catalog-license lppl
-# catalog-version undef
+# catalog-version 0.65
 Name:		texlive-nicetext
-Version:	20121010
+Epoch:		1
+Version:	0.65
 Release:	1
 Summary:	Minimal markup for simple text (Wikipedia style) and documentation
 Group:		Publishing
@@ -53,7 +54,6 @@ direct from package files.
 %{_texmfdistdir}/tex/latex/nicetext/run/README-run.txt
 %{_texmfdistdir}/tex/latex/nicetext/run/arseneau.tex
 %{_texmfdistdir}/tex/latex/nicetext/run/atari.cfg
-%{_texmfdistdir}/tex/latex/nicetext/run/atari.fdf
 %{_texmfdistdir}/tex/latex/nicetext/run/atari.txt
 %{_texmfdistdir}/tex/latex/nicetext/run/copyfile.cfg
 %{_texmfdistdir}/tex/latex/nicetext/run/copyfile.tex
@@ -66,7 +66,6 @@ direct from package files.
 %{_texmfdistdir}/tex/latex/nicetext/run/sample.txt
 %{_texmfdistdir}/tex/latex/nicetext/run/substr.tex
 %{_texmfdistdir}/tex/latex/nicetext/run/u8atablg.fdf
-%{_texmfdistdir}/tex/latex/nicetext/stacklet.sty
 %{_texmfdistdir}/tex/latex/nicetext/wiki.sty
 %doc %{_texmfdistdir}/doc/latex/nicetext/ANNOUNCE.txt
 %doc %{_texmfdistdir}/doc/latex/nicetext/CHANGE.LOG
@@ -90,7 +89,6 @@ direct from package files.
 %doc %{_texmfdistdir}/doc/latex/nicetext/makedoc.pdf
 %doc %{_texmfdistdir}/doc/latex/nicetext/mdoccheat.pdf
 %doc %{_texmfdistdir}/doc/latex/nicetext/niceverb.pdf
-%doc %{_texmfdistdir}/doc/latex/nicetext/readprov.log
 %doc %{_texmfdistdir}/doc/latex/nicetext/wikicheat.pdf
 #- source
 %doc %{_texmfdistdir}/source/latex/nicetext/README.tex
