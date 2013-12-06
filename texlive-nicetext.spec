@@ -7,7 +7,7 @@
 Name:		texlive-nicetext
 Epoch:		1
 Version:	0.65
-Release:	1
+Release:	2
 Summary:	Minimal markup for simple text (Wikipedia style) and documentation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nicetext
