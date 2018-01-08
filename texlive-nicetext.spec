@@ -1,6 +1,6 @@
 Name:		texlive-nicetext
 Epoch:		1
-Version:	0.67
+Version:	r0.67
 Release:	1
 Summary:	Minimal markup for simple text (Wikipedia style) and documentation
 Group:		Publishing
