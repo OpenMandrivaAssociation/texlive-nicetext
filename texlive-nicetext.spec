@@ -4,7 +4,7 @@ Version:	38914
 Release:	2
 Summary:	Minimal markup for simple text (Wikipedia style) and documentation
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nicetext
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/nicetext
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/nicetext.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/nicetext.doc.r%{version}.tar.xz
